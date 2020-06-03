@@ -4,7 +4,6 @@
 
 使用 *Python* 生成 *HTML* 表格基本没啥难度， *for* 循环遍历一遍数据并输出标签即可。 如果需要实现合并单元格，或者按需调整表格样式，就比较麻烦了。
 
-
 这时，可以试试本文的主角 —— [html-table](https://github.com/fasionchan/py-html-table) 包，借助它可生成各种样式的 *HTML* 表格。 接下来，以一个简单的例子演示 *html-table* 的常用用法：
 
 ![表格效果图](https://python.fasionchan.com/zh_CN/latest/_images/997ad67a7f305a39e5a77e3bf86c7798.png)
@@ -146,8 +145,8 @@ print(html)
 
 ## 附录
 
-更多 *Python* 技术文章，请查看：[Python语言小册](https://python.fasionchan.com) ，转至 [原文](https://python.fasionchan.com/zh_CN/latest/libs/html-table.html) 可获得最佳阅读体验。
+更多 *Python* 技术文章请访问：[Python语言小册](https://python.fasionchan.com)，转至 [原文](https://nodejs.fasionchan.com/zh_CN/latest/practices/docker/introduce.html) 可获得最佳阅读体验。
 
 订阅更新，获取更多学习资料，请关注我们的 [微信公众号](https://python.fasionchan.com/zh_CN/latest/about/contact.html#wechat-mp) ：
 
-![小菜学编程](https://cdn.fasionchan.com/qrcode/wechat-coding-fan-tiny.jpg)
+![小菜学编程](https://cdn.fasionchan.com/coding-fan-wechat-soso-qrcode.png?x-oss-process=image/resize,w_480)

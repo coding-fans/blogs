@@ -4,10 +4,6 @@
 
 当然可以。 *Python* 下有很多类库可以做到， *openpyxl* 就是其中的佼佼者。
 
-> 原文地址：[https://python.fasionchan.com](https://python.fasionchan.com/zh_CN/latest/libs/openpyxl.html)
->
-> 欢迎关注我们的公众号：**小菜学编程** (coding-fan)
-
 *openpyxl* 的设计非常漂亮 ，你一定会喜欢它！不信请往下看：
 
 ## 工作簿
@@ -115,7 +111,7 @@
 ```
 
 > **注解**
-> 
+>
 > 工作表创建后，不包含任何单元格，单元格在第一次被访问时自动创建。
 
 ### 多单元格
@@ -254,7 +250,7 @@ datetime.datetime(2010, 9, 10, 22, 25, 18)
 ```
 
 > **警告**
-> 
+>
 > 这个操作将覆盖已存在的文件，没有任何提示！
 
 借助 *template* 属性，可以将工作表保存成模板文档：
@@ -289,11 +285,10 @@ datetime.datetime(2010, 9, 10, 22, 25, 18)
 ...     stream = tmp.read()
 ```
 
-
 ## 附录
 
-更多 *Python* 技术文章，请查看：[Python语言小册](https://python.fasionchan.com) ，转至 [原文](https://python.fasionchan.com/zh_CN/latest/libs/html-table.html) 可获得最佳阅读体验。
+更多 *Python* 技术文章请访问：[Python语言小册](https://python.fasionchan.com)，转至 [原文](https://nodejs.fasionchan.com/zh_CN/latest/practices/docker/introduce.html) 可获得最佳阅读体验。
 
 订阅更新，获取更多学习资料，请关注我们的 [微信公众号](https://python.fasionchan.com/zh_CN/latest/about/contact.html#wechat-mp) ：
 
-![小菜学编程](https://cdn.fasionchan.com/qrcode/wechat-coding-fan-tiny.jpg)
+![小菜学编程](https://cdn.fasionchan.com/coding-fan-wechat-soso-qrcode.png?x-oss-process=image/resize,w_480)
