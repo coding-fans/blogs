@@ -149,4 +149,6 @@ print(html)
 
 订阅更新，获取更多学习资料，请关注我们的 [微信公众号](https://python.fasionchan.com/zh_CN/latest/about/contact.html#wechat-mp) ：
 
-![小菜学编程](https://cdn.fasionchan.com/coding-fan-wechat-soso-qrcode.png?x-oss-process=image/resize,w_480)
+<!--![小菜学编程](http://cdn.fasionchan.com/coding-fan-wechat-soso-standard.png?x-oss-process=image/resize,w_480)-->
+
+![小菜学编程](https://cdn.fasionchan.com/coding-fan-wechat-soso-qrcode.png?x-oss-process=image/resize,w_640)
