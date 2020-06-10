@@ -8,6 +8,7 @@
 - [NodeJs小册](https://nodejs.fasionchan.com/)
 - [OSX操作指南](https://osx-guide.readthedocs.io/)
 - [Python语言小册](https://python.fasionchan.com/)
+- [Python源码剖析](https://www.imooc.com/read/76)
 
 ## 微信公众号
 

@@ -74,8 +74,8 @@
 
 ## 附录
 
-更多 *Python* 技术文章请访问：[Python语言小册](https://python.fasionchan.com)，转至 [原文](https://nodejs.fasionchan.com/zh_CN/latest/practices/docker/introduce.html) 可获得最佳阅读体验。
+更多 *Python* 技术文章请访问：[Python语言小册](https://python.fasionchan.com)，转至 [原文](https://python.fasionchan.com/zh_CN/latest/source/preface/intro.html) 可获得最佳阅读体验。
 
 订阅更新，获取更多学习资料，请关注我们的 [微信公众号](https://python.fasionchan.com/zh_CN/latest/about/contact.html#wechat-mp) ：
 
-![小菜学编程](https://cdn.fasionchan.com/coding-fan-wechat-soso-qrcode.png?x-oss-process=image/resize,w_480)
+![小菜学编程](https://cdn.fasionchan.com/coding-fan-wechat-soso-qrcode.png?x-oss-process=image/resize,w_640)
