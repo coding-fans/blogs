@@ -1,4 +1,4 @@
-# 小菜成长之路，警惕沦为 API 调用侠
+# 小菜成长之路：警惕沦为 API 调用侠
 
 小菜(化名)在某互联网公司担任运维工程师，负责公司后台业务的运维保障工作。由于自己编程经验不多，平时有不少工作需要开发协助。
 
@@ -6,9 +6,7 @@
 
 ## 背景
 
-这天老板给小菜派了一个数据采集任务，要实时统计服务器 *TCP* 连接数。
-
-需求背景是这样的：开发同事需要知道服务的连接数以及不同状态连接的比例，以便判断服务状态。
+这天老板给小菜派了一个数据采集任务，要实时统计服务器 *TCP* 连接数。需求背景是这样的：开发同事需要知道服务的连接数以及不同状态连接的比例，以便判断服务状态。
 
 因此，小菜需要开发一个脚本，定期采集并报告 *TCP* 连接数，提交数据格式定为 *json* ：
 
@@ -20,8 +18,7 @@
 }
 ```
 
-作为运维工程师，小菜当然知道怎么查看系统 *TCP* 连接。
-*Linux* 系统中有两个命令可以办到， *netstat* 和 *ss* ：
+作为运维工程师，小菜当然知道怎么查看系统 *TCP* 连接。*Linux* 系统中有两个命令可以办到， *netstat* 和 *ss* ：
 
 ```shell
 $ netstat -nat
@@ -108,7 +105,7 @@ LISTEN 4
 
 突然有一天，其他同事紧急告诉小菜，他开发的采集脚本占用很多内存， *CPU* 也跑到了 *100%* ，已经开始影响线上服务了。小菜还沉浸在成功的喜悦中，收到这个反馈如同晴天霹雳，有点举手无措。
 
-业务同事告诉小菜，受影响的机器系统连接数非常大，质疑小菜是不是脚本存在性能问题。小菜觉得很背，脚本只是调用 *psutil* 并统计数据，怎么可能存在性能问题？脚本影响线上服务，小菜压力很大，但不知道如何是好，只能跑去找老板寻求帮助。
+业务同事告诉小菜，受影响的机器系统连接数非常大，质疑小菜是不是脚本存在性能问题。小菜觉得很背，脚本只是调用 *psutil* 并统计数据，怎么就摊上性能故障？脚本影响线上服务，小菜压力很大，但不知道如何是好，只能跑去找老板寻求帮助。
 
 老板要小菜第一时间停止数据采集，降低影响。复盘故障时，老板很敏锐地问小菜，是不是用容器保存所有连接了？小菜自己并没有，但是 *psutil* 这么做了：
 
@@ -119,8 +116,7 @@ LISTEN 4
 
 *psutil* 将采集到的所有 *TCP* 连接放在一个列表里返回。如果服务器上有十万个 *TCP* 连接，那么列表里将有十万个连接对象。难怪采集脚本吃了那么多内存！
 
-老板告诉小菜，可以用生成器加以解决。与列表不同，生成器逐个返回数据，因此不会占用太多内存。
-*Python2* 中 *range* 和 *xrange* 函数的区别也是一样的道理。
+老板告诉小菜，可以用生成器加以解决。与列表不同，生成器逐个返回数据，因此不会占用太多内存。*Python2* 中 *range* 和 *xrange* 函数的区别也是一样的道理。
 
 小菜从 *pstuil*  *fork* 了一个分支，并将 *net_connections* 函数改造成 **生成器** ：
 
@@ -478,8 +474,6 @@ CLOSING     : 0
 
 到底如何才能提升我的 *Python* 开发水平，向更高一级的岗位迈进？ 如果你有这些问题或者疑惑，请订阅我们的专栏，阅读更多章节：
 
-![](https://cdn.fasionchan.com/python-source-course-qrcode.png)
-
 - [内建对象](https://www.imooc.com/read/76)
 - [虚拟机](https://www.imooc.com/read/76)
 - [函数机制](https://www.imooc.com/read/76)
@@ -489,8 +483,8 @@ CLOSING     : 0
 
 ## 附录
 
-更多 *Python* 技术文章请访问：[Python语言小册](https://python.fasionchan.com)，转至 [原文](https://python.fasionchan.com/zh_CN/latest/source/preface/story.html) 可获得最佳阅读体验。
+更多 *Python* 技术文章请访问：[小菜学Python](https://python.fasionchan.com)，转至 [原文](https://python.fasionchan.com/zh_CN/latest/source/preface/story.html) 可获得最佳阅读体验。
 
-订阅更新，获取更多学习资料，请关注我们的 [微信公众号](https://python.fasionchan.com/zh_CN/latest/about/contact.html#wechat-mp) ：
+订阅更新，获取更多学习资料，请关注 [小菜学编程](https://python.fasionchan.com/zh_CN/latest/about/contact.html) ：
 
-![小菜学编程](https://cdn.fasionchan.com/coding-fan-wechat-soso-qrcode.png?x-oss-process=image/resize,w_640)
+![小菜学编程](https://cdn.fasionchan.com/coding-fan-wechat-soso-qrcode.png?x-oss-process=image/resize,w_480)

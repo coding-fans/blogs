@@ -25,7 +25,6 @@
 | 较高 ( *High* ) | $ O(2^{192}) $ | AES-192 |
 | 超高 ( *Ultra* ) | $ O(2^{256}) $ | AES-256 |
 
-
 根据安全性，对称加密算法应该优先选择 *AES* ，位数尽可能大，例如 *AES-256* 。
 
 由于所有参与者共享密钥，只要一人造成泄露便万劫不复，这是对称加密最大的弱点。因此，对称加密密钥分发、保管必须严格控制，以免泄露。
@@ -81,6 +80,6 @@
 
 更多 *网络编程* 技术文章请访问：[Linux网络编程](https://network.fasionchan.com/)，转至 [原文](https://network.fasionchan.com/zh_CN/latest/security/symmetric-asymmetric-encryption.html) 可获得最佳阅读体验。
 
-订阅更新，获取更多学习资料，请关注我们的 [微信公众号](https://nodejs.fasionchan.com/zh_CN/latest/about/contact.html#wechat-mp) ：
+订阅更新，获取更多学习资料，请关注 [小菜学编程](https://python.fasionchan.com/zh_CN/latest/about/contact.html) ：
 
-![小菜学编程](https://cdn.fasionchan.com/coding-fan-wechat-soso-qrcode.png?x-oss-process=image/resize,w_640)
+![小菜学编程](https://cdn.fasionchan.com/coding-fan-wechat-soso-qrcode.png?x-oss-process=image/resize,w_480)

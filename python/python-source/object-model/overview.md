@@ -337,8 +337,6 @@ OverflowError: (34, 'Result too large')
 
 到底如何才能提升我的 *Python* 开发水平，向更高一级的岗位迈进？ 如果你有这些问题或者疑惑，请订阅我们的专栏，阅读更多章节：
 
-![](https://cdn.fasionchan.com/python-source-course-qrcode.png)
-
 - [内建对象](https://www.imooc.com/read/76)
 - [虚拟机](https://www.imooc.com/read/76)
 - [函数机制](https://www.imooc.com/read/76)
@@ -348,8 +346,10 @@ OverflowError: (34, 'Result too large')
 
 ## 附录
 
-更多 *Python* 技术文章请访问：[Python语言小册](https://python.fasionchan.com)，转至 [原文](https://python.fasionchan.com/zh_CN/latest/source/object-model/overview.html) 可获得最佳阅读体验。
+更多 *Python* 技术文章请访问：[小菜学Python](https://python.fasionchan.com)，转至 [原文](https://python.fasionchan.com/zh_CN/latest/source/object-model/overview.html) 可获得最佳阅读体验。
 
-订阅更新，获取更多学习资料，请关注我们的 [微信公众号](https://python.fasionchan.com/zh_CN/latest/about/contact.html#wechat-mp) ：
+订阅更新，获取更多学习资料，请关注 [小菜学编程](https://python.fasionchan.com/zh_CN/latest/about/contact.html) ：
 
-![小菜学编程](https://cdn.fasionchan.com/coding-fan-wechat-soso-qrcode.png?x-oss-process=image/resize,w_640)
+![小菜学编程](https://cdn.fasionchan.com/coding-fan-wechat-soso.png?x-oss-process=image/resize,w_320)
+
+![小菜学编程](https://cdn.fasionchan.com/coding-fan-wechat-soso-qrcode.png?x-oss-process=image/resize,w_480)
